@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Component Library
 
-## Getting Started
+A modern, open-source React component library built with Next.js 15, TypeScript, and Tailwind CSS. Free for everyone to use and contribute to.
 
-First, run the development server:
+## 🚀 Features
+
+- **Next.js 15** with App Router and React 19
+- **TypeScript** for complete type safety
+- **Tailwind CSS v4** with modern styling approach
+- **shadcn/ui** component system with Radix UI primitives
+- **Turbopack** for lightning-fast development
+- **Lucide React** icons
+- **Responsive design** out of the box
+- **Dark/Light mode** support ready
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/gokm8/component-library.git
+
+# Navigate to the project
+cd component-library
+
+# Install dependencies
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Start development server
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Build for production
+npm run build
 
-## Learn More
+# Start production server
+npm run start
 
-To learn more about Next.js, take a look at the following resources:
+# Run linting
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visit [http://localhost:3000](http://localhost:3000) to see the component library in action.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```
+component-library/
+├── app/                 # Next.js App Router pages
+├── components/          # Custom components
+│   └── ui/             # Reusable UI components
+├── lib/                # Utility functions
+└── public/             # Static assets
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Components
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This library includes a comprehensive set of UI components:
+
+- Navigation components (Navbar, Menu)
+- Form elements (Button, Input, Label)
+- Layout components (Card, Sheet)
+- And many more...
+
+## 🤝 Contributing
+
+This is an open-source project and contributions are welcome! Feel free to:
+
+- Submit bug reports and feature requests
+- Create pull requests
+- Improve documentation
+- Share your component ideas
+
+## 📄 License
+
+Open source and free to use for any project, commercial or personal.
+
+## 🔗 Links
+
+- [Repository](https://github.com/gokm8/component-library)
+- [Issues](https://github.com/gokm8/component-library/issues)
