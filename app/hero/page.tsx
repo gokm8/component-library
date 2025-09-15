@@ -39,7 +39,7 @@ export default function Hero() {
                             </div>
 
                             {/* Hovedoverskrift */}
-                            <h1 className="font-black text-primary leading-none text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
+                            <h1 className="font-black text-primary leading-none text-5xl sm:text-7xl md:text-8xl lg:text-9xl">
                                 FESTPARTNER
                             </h1>
 
